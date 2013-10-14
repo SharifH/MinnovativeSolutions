@@ -43,7 +43,8 @@ body {
 p {	
 	margin-bottom: 2em;
 	
-	font: 12px/1.7em 'Open Sans', arial, sans-serif;
+	font: 14px/1.7em 'Open Sans', arial, sans-serif;
+	text-align: justify;
 }
 
 h1 {
@@ -715,3 +716,7 @@ input {
 .row:after { content: ""; display: table; }
 .clearfix:after,
 .row:after { clear: both; }
+
+.service-item h3{
+	margin-bottom: 0;
+}
